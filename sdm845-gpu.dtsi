@@ -25,7 +25,7 @@
 		opp-150  { opp-hz = /bits/ 64 <  572 >;   }; /*  BW_OPP_ENTRY(  150, 4);  572 MB/s */
 		opp-200  { opp-hz = /bits/ 64 <  762 >;   }; /*  BW_OPP_ENTRY(  200, 4);  762 MB/s */
 		opp-300  { opp-hz = /bits/ 64 < 1144 >;   }; /*  BW_OPP_ENTRY(  300, 4); 1144 MB/s */
-		opp-451  { opp-hz = /bits/ 64 < 1720 >;   }; /*  BW_OPP_ENTRY(  451, 4); 1720 MB/s */
+		opp-412  { opp-hz = /bits/ 64 < 1571 >;   }; /*  BW_OPP_ENTRY(  412, 4); 1571 MB/s */
 		opp-547  { opp-hz = /bits/ 64 < 2086 >;   }; /*  BW_OPP_ENTRY(  547, 4); 2086 MB/s */
 		opp-681  { opp-hz = /bits/ 64 < 2597 >;   }; /*  BW_OPP_ENTRY(  681, 4); 2597 MB/s */
 		opp-768  { opp-hz = /bits/ 64 < 2929 >;   }; /*  BW_OPP_ENTRY(  768, 4); 2929 MB/s */
