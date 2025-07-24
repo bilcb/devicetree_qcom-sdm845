@@ -21,6 +21,8 @@
 	gpu_bw_tbl: gpu-bw-tbl {
 		compatible = "operating-points-v2";
 		opp-0    { opp-hz = /bits/ 64 <    0 >;   }; /*  OFF */
+		opp-100  { opp-hz = /bits/ 64 <  381 >;   }; /*  BW_OPP_ENTRY(  100, 4);  381 MB/s */
+		opp-150  { opp-hz = /bits/ 64 <  572 >;   }; /*  BW_OPP_ENTRY(  150, 4);  572 MB/s */
 		opp-200  { opp-hz = /bits/ 64 <  762 >;   }; /*  BW_OPP_ENTRY(  200, 4);  762 MB/s */
 		opp-300  { opp-hz = /bits/ 64 < 1144 >;   }; /*  BW_OPP_ENTRY(  300, 4); 1144 MB/s */
 		opp-451  { opp-hz = /bits/ 64 < 1720 >;   }; /*  BW_OPP_ENTRY(  451, 4); 1720 MB/s */
